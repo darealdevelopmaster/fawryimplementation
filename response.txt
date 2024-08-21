@@ -1,0 +1,28 @@
+b'77000001976423124654641PayUsingCC580.5542424242424242422105123https://developer.fawrystaging.com2d93a82c2ff5493787665f7ed9f64680'
+{
+    "merchantCode": "770000019764",
+    "merchantRefNum": "23124654641",
+    "cardNumber": "4242424242424242",
+    "cardExpiryYear": "21",
+    "cardExpiryMonth": "05",
+    "cvv": "123",
+    "customerMobile": "01111111111",
+    "customerEmail": "a@gmail.com",
+    "amount": "580.55",
+    "currencyCode": "EGP",
+    "language": "en-gb",
+    "returnUrl": "https://developer.fawrystaging.com",
+    "chargeItems": [
+        {
+            "itemId": "184",
+            "price": 580.55,
+            "quantity": 1
+        }
+    ],
+    "enable3DS": true,
+    "paymentMethod": "CARD",
+    "signature": "628ff5babb17a5da9ecb7bd648ee443c56440866182f50e663fe454acb18cab7"
+}
+Sent
+200
+{"type":"ChargeResponse","statusCode":815454,"statusDescription":"Something went wrong","basketPayment":false}
